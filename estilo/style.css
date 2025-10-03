@@ -9,7 +9,7 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: lightblue;
+    background-color: #000000;
 }
 
 body {
@@ -31,6 +31,7 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat center;
+    
 }
 
 iframe#tela {
@@ -48,7 +49,8 @@ section#redes-sociais {
     transform: translate(-50%, -50%);
     text-align: right;
     background-color: rgba(80, 66, 66, 0.404);
-    padding: 10px;
+    padding: 1px;
+    margin: 10px;
     border-radius: 14px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.404);
 }
